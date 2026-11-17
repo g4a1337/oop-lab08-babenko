@@ -1,0 +1,8 @@
+Car: brand=Toyota, cylinders=4, power=140 hp
+Lorry: brand=Volvo FH, cylinders=6, power=350 hp, capacity=12500 kg
+By value (sliced): Car: brand=Volvo FH, cylinders=6, power=370 hp
+Original after copying: Lorry: brand=Volvo FH, cylinders=6, power=350 hp, capacity=12500 kg
+Through Car&: Lorry: brand=Volvo FH, cylinders=6, power=360 hp, capacity=12500 kg
+Rejected: Power must be finite and positive
+Rejected: Capacity must be finite and nonnegative
+Self-checks: PASS
